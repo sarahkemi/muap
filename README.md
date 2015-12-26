@@ -4,4 +4,4 @@ Created this project Spring 2014 for the [Congressional App Challenge](http://ww
 
 If for any reason you want to use any of my work in your own work, please contact me beforehand. Thanks! :)
 
--[ ] For some reason, my API requests aren't working the way they should. This is kind of an old project, but if I ever get bored I'll try to fix it up
+- [ ] For some reason, my API requests aren't working the way they should. This is kind of an old project, but if I ever get bored I'll try to fix it up
