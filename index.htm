@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Muap!</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/jumbotron-narrow.css" rel="stylesheet">
+
+	<!-- Jquery and my Custom JS-->
+	<script type='text/javascript' src="./js/jquery.js"></script>
+    <script type='text/javascript' src="./js/main.js"></script>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted"></h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Welcome to Muap!</h1>
+        <p class="lead">Let your friends suggest you good music.</p>
+		<form class="form-horizontal" role="form" onsubmit="return false;">
+		  <div class="form-group">
+			<label for="Last.fm Username" class="col-sm-2 control-label" align="right">Last.fm</label>
+			<div class="col-sm-10">
+			  <input type="text" class="form-control" id="lastfm_user" name ="lastfm_user" placeholder="Enter friend's username (ex. saysayrox)">
+			</div>
+		  </div>
+		</form>
+        <p><a class="btn btn-lg btn-success" id="button" href="#" role="button">Surprise!</a></p>
+      </div>	
+      <div class="footer">
+        <p><a href="./Muap.apk">Android App!</a> &copy; Sarah Aladetan 2014</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
